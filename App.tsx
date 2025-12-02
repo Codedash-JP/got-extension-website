@@ -87,7 +87,7 @@ const Features = () => {
           </div>
           <h3 className="font-serif text-xl font-bold text-nexus-ink">Graph of Thought</h3>
           <p className="font-sans text-nexus-gray leading-relaxed font-light">
-            Move beyond linear chat. Nexus enables non-linear reasoning, allowing AI to explore multiple branches of possibilities before converging on a solution.
+            Move beyond linear chat. GotIdeas enables non-linear reasoning, allowing AI to explore multiple branches of possibilities before converging on a solution.
           </p>
         </div>
 
@@ -184,7 +184,7 @@ const Testimonials = () => {
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
          {/* Card 1 */}
          <div className="bg-nexus-cream p-8 rounded-none border border-gray-200 hover:border-nexus-red/30 transition-colors">
-            <p className="font-serif italic text-nexus-ink mb-6">"Nexus changed how I approach system design. It's like having a senior architect pair programming with me, but focusing on the 'why' instead of just the 'how'."</p>
+            <p className="font-serif italic text-nexus-ink mb-6">"GotIdeas changed how I approach system design. It's like having a senior architect pair programming with me, but focusing on the 'why' instead of just the 'how'."</p>
             <div className="flex items-center gap-4">
               <img src="https://picsum.photos/id/32/100/100" className="w-10 h-10 rounded-full object-cover grayscale" alt="User" />
               <div>
@@ -229,9 +229,9 @@ const Footer = () => {
         <div className="mb-8 md:mb-0 text-center md:text-left">
           <div className="flex items-center justify-center md:justify-start gap-2 mb-2">
              <Feather className="text-nexus-red" />
-             <span className="font-serif text-2xl font-bold">Nexus</span>
+           <span className="font-serif text-2xl font-bold">GotIdeas</span>
           </div>
-          <p className="text-gray-400 text-sm">© {new Date().getFullYear()} Nexus Extension. Open Source.</p>
+          <p className="text-gray-400 text-sm">© {new Date().getFullYear()} GotIdeas Extension. Open Source.</p>
         </div>
         
         <div className="flex gap-8">
